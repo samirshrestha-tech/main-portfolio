@@ -6,10 +6,21 @@
 * {
   margin: 0;
 }
+body {
+  min-height: 500vh;
+  box-sizing: border-box;
+}
+
+/* nav section */
 .wrapper {
   justify-content: space-around;
 
   box-shadow: -5px 5px 5px gainsboro;
+  margin: 2rem 0;
+  position: sticky;
+  top: 0;
+  flex: 1 0 200px;
+  padding: 0 2rem;
 }
 .logo {
   display: flex;
@@ -53,4 +64,10 @@
   padding-left: 1.1rem;
   text-transform: uppercase;
   color: black;
+}
+
+/* hero section */
+.home-hero {
+  background: rgba(229, 149, 10, 0.759);
+  max-height: 120vh;
 }
