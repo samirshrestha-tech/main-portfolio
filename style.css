@@ -69,5 +69,18 @@ body {
 /* hero section */
 .home-hero {
   background: rgba(229, 149, 10, 0.759);
-  max-height: 120vh;
+  max-height: 120rem;
+  color: #fff;
+  margin: 0;
+}
+.home-hero_content {
+  text-align: center;
+  max-width: 90rem;
+  width: 92%;
+  padding: 2rem 1.3rem;
+}
+.home-hero_content > h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
 }
