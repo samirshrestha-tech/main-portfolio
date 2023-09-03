@@ -82,6 +82,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
+  font-size: 3rem;
 }
 .home-hero_project-button > a > button {
   text-decoration: none;
@@ -95,4 +96,11 @@ body {
   color: #333;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
+  display: inline-block;
+  border: none;
+}
+.home-hero_info > p {
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-align: center;
 }
