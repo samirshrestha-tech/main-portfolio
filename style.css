@@ -99,6 +99,9 @@ body {
   display: inline-block;
   border: none;
 }
+#btn:hover {
+  transition: transform 0.3s;
+}
 .home-hero_info > p {
   font-size: 1.5rem;
   padding: 2rem;
