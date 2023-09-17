@@ -95,12 +95,13 @@ body {
   font-weight: 700;
   color: #333;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transform: scale(1);
   transition: transform 0.3s;
   display: inline-block;
   border: none;
 }
 #btn:hover {
-  transition: transform 0.3s;
+  transform: scale(1.1);
 }
 .home-hero_info > p {
   font-size: 1.5rem;
